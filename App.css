@@ -1,0 +1,168 @@
+.Islamabad{background-color:white;padding:5px}
+.Islamabad:hover{background-color:lightgray}
+
+.ProfileHover{
+  border:none;
+  border-radius:100px;
+  padding:5px 25px;
+  background:none;
+  font-family:verdana;
+  font-size:30px;
+  color:black;
+
+}
+.ProfileHover:hover{
+  background-color:lightblue
+  
+}
+
+.Lahore{background-color:white;padding:5px}
+.Lahore:hover{background-color:lightgray}
+
+.Multan{background-color:white;padding:5px}
+.Multan:hover{background-color:lightgray}
+
+.Kashmir{background-color:white;padding:5px}
+.Kashmir:hover{background-color:lightgray}
+
+.Karachi{background-color:white;padding:5px}
+.Karachi:hover{background-color:lightgray}
+
+
+
+.App {
+  text-align: center;
+}
+
+body{
+  background-color:whitesmoke;
+}
+
+/*-----------------Sidebar --------------------------------*/
+
+.sidebar-bgcolor{padding-bottom: 0px;width:70%}
+.sidebar-bgcolor:hover{background-color:lightblue;}
+
+@media screen and (max-width:768px){
+.p{width:100%}
+}
+
+/*-----------------Sidebar --------------------------------*/
+
+
+
+
+/*------------------------Widget------------------*/
+
+.header{
+  position:fixed;z-index:1;
+  
+}
+.header-Wrapper{
+  z-index:-1;
+
+}
+
+
+/*------------------------Widget------------------*/
+
+
+
+
+
+/*----------Sidebar--------------------*/
+ 
+.sidebar{
+  position:fixed;
+  left:0;
+}
+
+/*----------Sidebar--------------------*/
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/*-----------------------------------*/
+.navbar-nav{
+  width: 70%;
+  display:flex;
+  justify-content:center;
+}
+.navbar-nav .nav-link{
+  color:rgb(10, 7, 7);font-weight:bold;font-family: verdana;
+}
+.navbar-brand{width:50%;}
+.navigation{background-color:lightgray}
+
+/*-----------------------------------*/
+
+.App-header {
+  background-color: #dbe1ec;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.create__second {
+  margin-left: 20px;
+  margin-top: 15px;
+  
+}
+.ic{ 
+  margin: 0 6px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #1da1f2
+}
+.TweetIcon{
+  margin: 0 6px;
+  font-size: 30px;
+  cursor: pointer;
+  color: #1da1f2
+}
+.mydata{
+  border:none;
+  margin-top: 51px;
+  padding: "20px 40px ";
+  width: 400px;
+}
+.mydata:hover{
+  background-color:lightgray;
+  border-radius: 100px;
+  
+}
+.gallery{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item{
+  width: 30%;
+}
